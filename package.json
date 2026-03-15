@@ -1,13 +1,7 @@
 {
   "name": "a2z-suppliers",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,6 +16,9 @@
     "tailwindcss": "^3.4.0",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
   }
 }
-
